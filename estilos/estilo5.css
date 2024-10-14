@@ -1,0 +1,64 @@
+.padre
+{
+    padding: 5px;
+    background-color:#00FF00;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "header header header header"
+                         "nav nav nav nav"
+                         "cont1 cont2 cont3 cont4"
+                         "footer footer footer footer";
+}
+.padre .header
+{
+    background-color:#99FFFF;
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.padre .nav
+{
+    background-color:#FFFF00;
+    grid-area: nav;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.padre .cont1
+{
+    background-color:#663300;
+    grid-area: cont1;
+}
+.padre .cont2
+{
+    background-color:#FF6600;
+    grid-area: cont2;
+}
+.padre .cont3
+{
+    background-color:#0033FF;
+    grid-area: cont3;
+}
+.padre .cont4
+{
+    background-color:#FF0000;
+    grid-area: cont4;
+}
+.padre .footer
+{
+    background-color:#FF9966;
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card-body
+{
+	background-color:#CC6699;
+}
+
+
+
+

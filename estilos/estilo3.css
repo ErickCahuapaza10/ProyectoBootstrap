@@ -1,0 +1,43 @@
+.papa
+{
+    padding: 5px;
+    background-color:skyblue;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: "cabeza cabeza"
+                         "menu menu"
+                         "contenido1 contenido2"
+                         "pie pie";
+}
+.papa .cabeza
+{
+    background-color: burlywood;
+    grid-area: cabeza;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.papa .menu
+{
+    background-color: darkorange;
+    grid-area: menu;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.papa .contenido1
+{
+    background-color: chartreuse;
+    grid-area: contenido1;
+}
+.papa .contenido2
+{
+    background-color: chartreuse;
+    grid-area: contenido2;
+}
+.papa .pie
+{
+    background-color: blueviolet;
+    grid-area: pie;
+}
